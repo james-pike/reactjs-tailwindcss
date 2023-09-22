@@ -26,11 +26,11 @@ const UserProfile: FC = function () {
           alt="Jese portrait"
         />
         <div>
-          <h2 className="text-xl font-bold dark:text-white">Cathy</h2>
+          <h2 className="text-xl font-bold dark:text-white">Cathy📷</h2>
           <ul className="mt-2 space-y-1">
             <li className="flex items-center text-sm font-normal text-gray-500 dark:text-gray-400">
               <HiBriefcase className="mr-2 text-lg text-gray-900" />
-              Front-end Developer
+              Model
             </li>
             <li className="flex items-center text-sm font-normal text-gray-500 dark:text-gray-400">
               <HiMap className="mr-2 text-lg text-gray-900" />
