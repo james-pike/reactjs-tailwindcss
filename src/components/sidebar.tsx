@@ -10,13 +10,11 @@ import {
   HiClipboard,
   HiCog,
   HiCollection,
-  HiInboxIn,
   HiInformationCircle,
   HiLockClosed,
   HiSearch,
   HiShoppingBag,
   HiUsers,
-  HiViewGrid,
 } from "react-icons/hi";
 
 import { useSidebarContext } from "../context/SidebarContext";
