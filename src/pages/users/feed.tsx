@@ -62,7 +62,7 @@ const UserProfile: FC = function () {
         </div>
       </div>
       <h3 className="mb-4 text-base font-bold text-gray-900 dark:text-white">
-        Media
+        Media @
       </h3>
       <div className="mt-0 flex space-x-3">
         <svg
