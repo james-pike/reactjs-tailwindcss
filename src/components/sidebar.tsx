@@ -174,7 +174,7 @@ const ExampleSidebar: FC = function () {
                   Docs
                 </Sidebar.Item>
                 <Sidebar.Item
-                  href="https://flowbite-react.com/"
+                  href="https://github.com/james-pike/reactjs-tailwindcss"
                   icon={HiCollection}
                 >
                   Components
