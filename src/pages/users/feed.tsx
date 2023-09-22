@@ -22,11 +22,11 @@ const UserProfile: FC = function () {
       <div className="sm:flex sm:space-x-4 xl:block xl:space-x-0">
         <img
           className="mb-2 h-20 w-20 rounded-lg"
-          src="../../images/users/jese-leos-2x.png"
+          src="../../images/users/c4.jpg"
           alt="Jese portrait"
         />
         <div>
-          <h2 className="text-xl font-bold dark:text-white">Jese Leos</h2>
+          <h2 className="text-xl font-bold dark:text-white">Cathy</h2>
           <ul className="mt-2 space-y-1">
             <li className="flex items-center text-sm font-normal text-gray-500 dark:text-gray-400">
               <HiBriefcase className="mr-2 text-lg text-gray-900" />

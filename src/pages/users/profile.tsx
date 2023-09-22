@@ -42,19 +42,19 @@ const ProfileIntro: FC = function () {
       <div className="sm:flex sm:space-x-4 xl:block xl:space-x-0">
         <img
           alt=""
-          src="../../images/users/jese-leos-2x.png"
+          src="../../images/users/c.jpg"
           className="mb-2 h-20 w-20 rounded-lg"
         />
         <div>
-          <h2 className="text-xl font-bold dark:text-white">Jese Leos</h2>
+          <h2 className="text-xl font-bold dark:text-white">Cathy🔬</h2>
           <ul className="mt-2 space-y-1">
             <li className="flex items-center text-sm font-normal text-gray-500 dark:text-gray-400">
               <HiBriefcase className="mr-2 text-lg text-gray-900 dark:text-gray-100" />
-              Front-end Developer
+              Optical Engineer
             </li>
             <li className="flex items-center text-sm font-normal text-gray-500 dark:text-gray-400">
               <HiMap className="mr-2 text-lg text-gray-900 dark:text-gray-100" />
-              San Francisco, USA
+              Ontario, Canada
             </li>
           </ul>
         </div>
@@ -67,7 +67,7 @@ const ProfileIntro: FC = function () {
               className="text-sm font-medium text-gray-900 dark:text-white"
               href="mailto:webmaster@flowbite.com"
             >
-              yourname@flowbite.com
+              name@email.com
             </a>
             <div className="mt-4">Home address</div>
             <div className="mb-2 text-sm font-medium text-gray-900 dark:text-white">
@@ -95,7 +95,7 @@ const ProfileIntro: FC = function () {
       </div>
       <div>
         <h3 className="mb-2 text-base font-bold text-gray-900 dark:text-white">
-          Software Skill
+          Skills
         </h3>
         <div className="flex space-x-3">
           <svg
@@ -249,34 +249,29 @@ const Skills: FC = function () {
         <ul className="mt-4 flex flex-wrap gap-2">
           <li>
             <Badge color="success" size="xl" className="font-normal">
-              Brand Design
+              Hiking
             </Badge>
           </li>
           <li>
             <Badge color="success" size="xl" className="font-normal">
-              Logo Design
+              Pickleball
             </Badge>
           </li>
           <li>
             <Badge color="success" size="xl" className="font-normal">
-              Mobile App Design
+Tennis            </Badge>
+          </li>
+          <li>
+            <Badge color="success" size="xl" className="font-normal">
+              Optics
             </Badge>
           </li>
           <li>
             <Badge color="success" size="xl" className="font-normal">
-              UI Design
+              Testing
             </Badge>
           </li>
-          <li>
-            <Badge color="success" size="xl" className="font-normal">
-              React Developer
-            </Badge>
-          </li>
-          <li>
-            <Badge color="success" size="xl" className="font-normal">
-              Wordpress
-            </Badge>
-          </li>
+       
           <li>
             <Badge color="success" size="xl" className="font-normal">
               Sketch
@@ -287,16 +282,12 @@ const Skills: FC = function () {
               Figma
             </Badge>
           </li>
-          <li>
+            <li>
             <Badge color="success" size="xl" className="font-normal">
-              Prototyping
+              Travel⛰️
             </Badge>
           </li>
-          <li>
-            <Badge color="success" size="xl" className="font-normal">
-              Database
-            </Badge>
-          </li>
+    
         </ul>
       </div>
     </div>
@@ -305,52 +296,8 @@ const Skills: FC = function () {
 
 const Hobbies: FC = function () {
   return (
-    <div className="mb-4 rounded-lg bg-white p-4 shadow dark:bg-gray-800 sm:p-6 xl:p-8">
-      <div className="flow-root">
-        <h3 className="text-xl font-bold dark:text-white">Hobbies</h3>
-        <ul className="mt-4 flex flex-wrap gap-2">
-          <li>
-            <Badge color="primary" size="xl" className="font-normal">
-              Football
-            </Badge>
-          </li>
-          <li>
-            <Badge color="primary" size="xl" className="font-normal">
-              Dogs
-            </Badge>
-          </li>
-          <li>
-            <Badge color="primary" size="xl" className="font-normal">
-              Gaming
-            </Badge>
-          </li>
-          <li>
-            <Badge color="primary" size="xl" className="font-normal">
-              Movies
-            </Badge>
-          </li>
-          <li>
-            <Badge color="primary" size="xl" className="font-normal">
-              Travelling
-            </Badge>
-          </li>
-          <li>
-            <Badge color="primary" size="xl" className="font-normal">
-              Surf
-            </Badge>
-          </li>
-          <li>
-            <Badge color="primary" size="xl" className="font-normal">
-              Ice Skating
-            </Badge>
-          </li>
-          <li>
-            <Badge color="primary" size="xl" className="font-normal">
-              The Witcher
-            </Badge>
-          </li>
-        </ul>
-      </div>
+    <div >
+      
     </div>
   );
 };

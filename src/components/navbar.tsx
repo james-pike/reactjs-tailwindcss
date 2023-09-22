@@ -57,7 +57,7 @@ const ExampleNavbar: FC = function () {
                 className="mr-3 h-6 sm:h-8"
               />
               <span className="self-center whitespace-nowrap text-2xl font-semibold dark:text-white">
-                Cathy
+                Cathy🔬
               </span>
             </Navbar.Brand>
             <form className="ml-16 hidden md:block">
@@ -133,7 +133,7 @@ const NotificationBellDropdown: FC = function () {
               <div className="mb-1.5 text-sm font-normal text-gray-500 dark:text-gray-400">
                 New message from&nbsp;
                 <span className="font-semibold text-gray-900 dark:text-white">
-                  Connor
+                  Connor Smith
                 </span>
                 : "Hey, what's up? All set for the trip?"
               </div>
@@ -460,7 +460,7 @@ const UserDropdown: FC = function () {
           <span className="sr-only">User menu</span>
           <Avatar
             alt=""
-            img="../images/users/neil-sims.png"
+            img="../images/users/c.jpg"
             rounded
             size="sm"
           />
@@ -468,14 +468,14 @@ const UserDropdown: FC = function () {
       }
     >
       <Dropdown.Header>
-        <span className="block text-sm">Cathy</span>
+        <span className="block text-sm">Cathy🔬</span>
         <span className="block truncate text-sm font-medium">
           cathy@optics.com
         </span>
       </Dropdown.Header>
       <Dropdown.Item>Dashboard</Dropdown.Item>
       <Dropdown.Item>Settings</Dropdown.Item>
-      <Dropdown.Item>Earnings</Dropdown.Item>
+      <Dropdown.Item>Profile</Dropdown.Item>
       <Dropdown.Divider />
       <Dropdown.Item>Sign out</Dropdown.Item>
     </Dropdown>

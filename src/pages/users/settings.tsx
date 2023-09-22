@@ -70,22 +70,23 @@ const UserProfileCard: FC = function () {
       <div className="items-center sm:flex sm:space-x-4 xl:block xl:space-x-0 2xl:flex 2xl:space-x-4">
         <img
           alt=""
-          src="../../images/users/jese-leos-2x.png"
+          src="../../images/users/c2.jpg
+          "
           className="mb-4 h-28 w-28 rounded-lg sm:mb-0 xl:mb-4 2xl:mb-0"
         />
         <div>
           <h3 className="mb-1 text-2xl font-bold text-gray-900 dark:text-white">
-            Cathy
+            Cathy🍣
           </h3>
           <div className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
-            Optical Engineer
+            Sushi Pro
           </div>
           <a
             href="#"
             className="inline-flex items-center rounded-lg bg-primary-700 px-3 py-2 text-center text-sm font-medium text-white hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
           >
             <HiCloudUpload className="mr-2" />
-            Change picture
+            Change Lunch Order
           </a>
         </div>
       </div>
@@ -207,7 +208,7 @@ const SocialAccountsCard: FC = function () {
               </div>
               <div className="min-w-0 flex-1">
                 <span className="block truncate text-base font-semibold text-gray-900 dark:text-white">
-                  Dribbble account
+                  Instagram account
                 </span>
                 <span className="block truncate text-sm font-normal text-gray-500 dark:text-gray-400">
                   Not connected
@@ -245,7 +246,7 @@ const OtherAccountsCard: FC = function () {
                 </div>
                 <div className="min-w-0 flex-1">
                   <p className="mb-0.5 truncate text-base font-semibold leading-none text-gray-900 dark:text-white">
-                    Cathy
+                    Jennifer Stewart
                   </p>
                   <p className="mb-1 truncate text-sm font-normal text-primary-700 dark:text-primary-500">
                     New York, USA
@@ -378,7 +379,7 @@ const GeneralInformationCard: FC = function () {
             <TextInput
               id="last-name"
               name="last-name"
-              placeholder="Pickleball"
+              placeholder="🍣"
               required
             />
           </div>

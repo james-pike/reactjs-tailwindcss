@@ -108,16 +108,7 @@ const ExampleSidebar: FC = function () {
                   >
                     Settings
                   </Sidebar.Item>
-                      <Sidebar.Item
-                    href="/users/list"
-                    className={
-                      "/users/list" === currentPage
-                        ? "bg-gray-100 dark:bg-gray-700"
-                        : ""
-                    }
-                  >
-                    Users list
-                  </Sidebar.Item>
+                    
                 </Sidebar.Collapse>
                 <Sidebar.Collapse icon={HiChartSquareBar} label="Pages">
                   <Sidebar.Item href="/pages/pricing">Pricing</Sidebar.Item>
