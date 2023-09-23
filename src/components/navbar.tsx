@@ -54,7 +54,7 @@ const ExampleNavbar: FC = function () {
             <img
                 alt=""
                 src="https://flowbite.com/docs/images/logo.svg"
-                className="mr-2 h-6 sm:h-8"
+                className="mr-3 h-6 sm:h-8"
               />      
               <span className="self-center whitespace-nowrap text-2xl font-semibold dark:text-white">
                 Webdev
