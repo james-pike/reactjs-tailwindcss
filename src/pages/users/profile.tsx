@@ -18,9 +18,9 @@ const UserProfilePage: FC = function () {
             <Breadcrumb.Item href="/users/list">Users</Breadcrumb.Item>
             <Breadcrumb.Item>Profile</Breadcrumb.Item>
           </Breadcrumb>
-          <h1 className="text-xl font-semibold text-gray-900 dark:text-white sm:text-2xl">
+        {/* }  <h1 className="text-xl font-semibold text-gray-900 dark:text-white sm:text-2xl">
             Profile
-          </h1>
+  </h1>  */}
         </div>
         <div className="col-span-full xl:col-auto">
           <ProfileIntro />
