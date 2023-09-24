@@ -51,13 +51,13 @@ const ExampleNavbar: FC = function () {
               </button>
             )}
             <Navbar.Brand href="/">
-            <img
+         {/*<img
                 alt=""
                 src="https://flowbite.com/docs/images/logo.svg"
                 className="mr-3 h-6 sm:h-8"
-              />      
+              />     */}      
               <span className="self-center whitespace-nowrap text-2xl font-semibold dark:text-white">
-                devkit🔬
+                🔬Dev·Kit
               </span>
             </Navbar.Brand>
             <form className="ml-16 hidden md:block">
